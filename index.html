@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CV & Portofolio</title>
+    <title>CV & Portofolio - Jota Baret Tata</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -28,7 +28,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="#">CV & Portofolio</a>
+        <a class="navbar-brand" href="#">Jota Baret Tata</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,8 +36,8 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
                 <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Keterampilan</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
             </ul>
         </div>
@@ -47,53 +47,63 @@
 <!-- Tentang Saya -->
 <section id="about" class="section text-center bg-light">
     <div class="container">
-        <img src="https://github.com/jotabarettata.png" class="profile-img mb-3" alt="Foto Profil">
+        <img src="https://github.com/USERNAME.png" class="profile-img mb-3" alt="Foto Profil">
         <h2>Jota Baret Tata</h2>
-        <p>Eletrical Engineering</p>
-        <p>Control System | Artificial Intelegnt | Internet of Things</p>
+        <p>Engineer | AI Enthusiast | Electrical Engineering Graduate</p>
+        <p>Saya adalah lulusan Teknik Elektro dari Institut Teknologi Bandung dengan pengalaman dalam sistem kontrol cerdas dan AI.</p>
     </div>
 </section>
 
 <!-- Pengalaman -->
 <section id="experience" class="section">
     <div class="container">
-        <h2 class="text-center">Experience</h2>
+        <h2 class="text-center">Pengalaman Kerja</h2>
         <ul class="list-group">
-            <li class="list-group-item"><strong>IOT Engineer</strong> - PT Brajakara Teknologi Media (July 2024 - Now)</li>
-            <li class="list-group-item"><strong>Engineer Intern</strong> - PT Industri Kereta Api (INKA) Persero (June 2023 - August 2023)</li>
+            <li class="list-group-item">
+                <strong>Engineer</strong> - PT Brajakara Teknologi Media (Jul 2024 - Sekarang)
+                <ul>
+                    <li>Developed AI models (YOLO, HomographyNet) untuk sistem monitoring.</li>
+                    <li>Menerapkan AI pada Raspberry Pi dengan waktu inferensi < 0.1s.</li>
+                    <li>Membuat program kontrol PTZ CCTV dalam sistem peringatan dini.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <strong>Engineer Intern</strong> - PT Industri Kereta Api (Jun 2023 - Aug 2023)
+                <ul>
+                    <li>Membantu inspeksi Vehicle Controller untuk kereta Hybrid Diesel Electric.</li>
+                    <li>Mengembangkan sistem JIG Test untuk pengujian akurat.</li>
+                    <li>Mendesain Human-Machine Interface (HMI) berbasis RS232.</li>
+                </ul>
+            </li>
         </ul>
     </div>
 </section>
 
-<!-- Keterampilan -->
-<section id="skills" class="section bg-light">
+<!-- Proyek -->
+<section id="projects" class="section bg-light">
     <div class="container">
-        <h2 class="text-center">Keterampilan</h2>
-        <div class="row text-center">
-            <div class="col-md-4"><strong>HTML & CSS</strong></div>
-            <div class="col-md-4"><strong>JavaScript</strong></div>
-            <div class="col-md-4"><strong>React & Bootstrap</strong></div>
+        <h2 class="text-center">Proyek Teknik</h2>
+        <div class="portfolio-item">
+            <h5>4-Wheel Car Robot for Earthquake Exploration</h5>
+            <p>Institut Teknologi Bandung (Sep 2023 - Jul 2024)</p>
+            <ul>
+                <li>Merancang subsistem daya untuk daya tahan 2 jam 40 menit.</li>
+                <li>Mengembangkan sistem navigasi dengan sensor ultrasonik.</li>
+                <li>Membuat sistem kendali gerak robot.</li>
+            </ul>
+            <a href="https://digilib.itb.ac.id/gdl/view/81894/Jota-Baret-Tata" class="btn btn-primary">Lihat Detail</a>
         </div>
     </div>
 </section>
 
-<!-- Portofolio -->
-<section id="portfolio" class="section">
+<!-- Keterampilan -->
+<section id="skills" class="section">
     <div class="container">
-        <h2 class="text-center">Portofolio</h2>
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <img src="https://via.placeholder.com/300" alt="Project 1">
-                <p>Proyek 1</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <img src="https://via.placeholder.com/300" alt="Project 2">
-                <p>Proyek 2</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <img src="https://via.placeholder.com/300" alt="Project 3">
-                <p>Proyek 3</p>
-            </div>
+        <h2 class="text-center">Keterampilan</h2>
+        <div class="row text-center">
+            <div class="col-md-4"><strong>Python & C</strong></div>
+            <div class="col-md-4"><strong>TensorFlow, Keras, PyTorch</strong></div>
+            <div class="col-md-4"><strong>Project Management</strong></div>
         </div>
     </div>
 </section>
@@ -102,15 +112,15 @@
 <section id="contact" class="section bg-light text-center">
     <div class="container">
         <h2>Kontak</h2>
-        <p>Email: emailanda@example.com | Telepon: +62 812-3456-7890</p>
-        <a href="#" class="btn btn-primary">LinkedIn</a>
-        <a href="#" class="btn btn-dark">GitHub</a>
+        <p>Email: <a href="mailto:barettatajota@gmail.com">barettatajota@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/jota-baret-tata" target="_blank">in/jota-baret-tata</a></p>
+        <p>GitHub: <a href="https://github.com/USERNAME" target="_blank">github.com/USERNAME</a></p>
     </div>
 </section>
 
 <!-- Footer -->
 <footer class="text-center bg-dark text-white py-3">
-    <p>&copy; 2025 Nama Anda. Semua Hak Dilindungi.</p>
+    <p>&copy; 2025 Jota Baret Tata. Semua Hak Dilindungi.</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
