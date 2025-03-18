@@ -5,17 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jota Baret Tata - CV & Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .profile-img { width: 150px; border-radius: 50%; }
-        .section { padding: 60px 0; }
-        .portfolio-item img { width: 100%; height: auto; border-radius: 10px; }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">Jota Baret Tata</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -27,112 +22,66 @@
                 <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#involvement">Involvement</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- About -->
-<section id="about" class="section text-center bg-light">
-    <div class="container">
-        <img src="https://github.com/jotabarettata.png" class="profile-img mb-3" alt="Profile Picture">
-        <h2>Jota Baret Tata</h2>
-        <p>Engineer | AI & IOT Enthusiast | Electrical Engineering Fresh Graduate</p>
-        <p>A recent Electrical Engineering graduate passionate about intelligent control systems, AI, and Internet of Things, with hands-on experience IOT and deploying AI models on edge computing platforms.</p>
+<!-- Hero Section -->
+<header class="hero">
+    <div class="container text-center">
+        <img src="assets/profile.jpg" class="profile-img" alt="Profile Picture">
+        <h1>Jota Baret Tata</h1>
+        <p>Engineer | AI Enthusiast | Electrical Engineering Graduate</p>
     </div>
-</section>
+</header>
 
-<!-- Experience -->
-<section id="experience" class="section">
+<!-- About -->
+<section id="about" class="section text-center">
     <div class="container">
-        <h2 class="text-center">Professional Experience</h2>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <strong>IOT Engineer & AI Researcher</strong> - PT Brajakara Teknologi Media (July 2024 - Present)
-                <ul>
-                    <li>Developed AI models (YOLO, HomographyNet) for monitoring systems.</li>
-                    <li>Deployed AI models on Edge Computing platforms (Raspberry Pi) with inference times of < 0.1s.</li>
-                    <li>Implemented a control program for PTZ CCTV and alarm triggers for an Early Warning System.</li>
-                </ul>
-            </li>
-            <li class="list-group-item">
-                <strong>Engineer Intern</strong> - PT Industri Kereta Api (June 2023 - August 2023)
-                <ul>
-                    <li>Assisted in inspecting Vehicle Controllers for Hybrid Diesel Electric trains.</li>
-                    <li>Developed a JIG Test system for accurate and efficient testing.</li>
-                    <li>Designed a Human-Machine Interface (HMI) using RS232 serial communication.</li>
-                </ul>
-            </li>
-        </ul>
+        <h2>About Me</h2>
+        <p>A passionate Electrical Engineer with experience in AI and control systems.</p>
     </div>
 </section>
 
 <!-- Projects -->
 <section id="projects" class="section bg-light">
     <div class="container">
-        <h2 class="text-center">Engineering Projects</h2>
-        <div class="portfolio-item">
-            <h5>4-Wheel Car Robot for Earthquake Exploration</h5>
-            <p>Institut Teknologi Bandung (September 2023 - July 2024)</p>
-            <ul>
-                <li>Managed power, navigation, and drive subsystems.</li>
-                <li>Designed a power system ensuring a runtime of 2 hours 40 minutes.</li>
-                <li>Developed a navigation system using ultrasonic sensors and exploration algorithms.</li>
-            </ul>
-            <a href="https://digilib.itb.ac.id/gdl/view/81894/Jota-Baret-Tata" class="btn btn-primary">View Project</a>
-        </div>
-    </div>
-</section>
-
-<!-- Education -->
-<section id="education" class="section">
-    <div class="container">
-        <h2 class="text-center">Education</h2>
-        <p><strong>Bachelor of Engineering, Electrical Engineering</strong> - Institut Teknologi Bandung (2024, GPA: 3.40)</p>
-        <p><strong>Math & Science</strong> - SMAN 2 Madiun (2020)</p>
-    </div>
-</section>
-
-<!-- Involvement -->
-<section id="involvement" class="section bg-light">
-    <div class="container">
-        <h2 class="text-center">Involvement</h2>
-        <p><strong>Head of the Design Division</strong> - Himpunan Mahasiswa Elektroteknik (HME) ITB (July 2023 - February 2024)</p>
-        <ul>
-            <li>Managed 68 design requests from various divisions.</li>
-            <li>Led a team of 8 designers to handle design tasks efficiently.</li>
-            <li>Created visual content for the HME ITB Instagram feed.</li>
-        </ul>
-    </div>
-</section>
-
-<!-- Skills -->
-<section id="skills" class="section">
-    <div class="container">
-        <h2 class="text-center">Engineering Skills</h2>
-        <div class="row text-center">
-            <div class="col-md-4"><strong>Python & C</strong></div>
-            <div class="col-md-4"><strong>TensorFlow, Keras, PyTorch</strong></div>
-            <div class="col-md-4"><strong>Project Management</strong></div>
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="assets/project1.jpg" alt="Project 1">
+                    <p>AI-powered Water Level Monitoring</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="assets/project2.jpg" alt="Project 2">
+                    <p>4-Wheel Car Robot for Earthquake Exploration</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="assets/project3.jpg" alt="Project 3">
+                    <p>Hybrid Diesel Electric Train Controller</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- Contact -->
-<section id="contact" class="section bg-light text-center">
+<section id="contact" class="section text-center">
     <div class="container">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:barettatajota@gmail.com">barettatajota@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/jota-baret-tata" target="_blank">in/jota-baret-tata</a></p>
-        <p>GitHub: <a href="https://github.com/USERNAME" target="_blank">github.com/USERNAME</a></p>
     </div>
 </section>
 
 <!-- Footer -->
-<footer class="text-center bg-dark text-white py-3">
+<footer class="text-center">
     <p>&copy; 2025 Jota Baret Tata. All Rights Reserved.</p>
 </footer>
 
