@@ -39,6 +39,16 @@ h2 {
     border: 3px solid white;
 }
 
+.profile-section {
+    background: url('assets/background.jpg') center/cover no-repeat;
+    height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ubah warna teks jika perlu agar lebih kontras */
+}
+
 /* Engineering Projects */
 .project-img {
     width: 100%;
