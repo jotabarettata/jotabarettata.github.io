@@ -42,8 +42,8 @@ h2 {
 /* Engineering Projects */
 .project-img {
     width: 100%;
-    max-width: 200px;
-    height: auto;
+    max-width: auto;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
