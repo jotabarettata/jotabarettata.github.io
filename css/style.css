@@ -53,6 +53,26 @@ h2 {
     border-radius: 50%;
 }
 
+.certifications-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.certifications-text {
+    display: flex;
+    flex-direction: column;
+}
+.btn-custom {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+.btn-custom:hover {
+    background-color: #343a40;
+}
+
 /* Footer */
 footer {
     background: #343a40;
